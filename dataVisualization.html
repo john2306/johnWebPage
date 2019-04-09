@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>John Mendoza</title>
+
+    <script src="js/Chart.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+<h3 class="text-flow hide-on-small-only center-align">Principales gráficos estadísticos</h3>
+<h5 class="text-flow show-on-small hide-on-med-and-up center-align">Principales gráficos estadísticos</h5>
+
+</div>
+
+<div class="container">  
+    <canvas id="barras"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas id="linea"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas id="multiplelinea"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas width="750" id="radar"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas width="750" id="polarArea"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas width="500" id="pieChart"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas width="500" id="donusChart"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas width="500" id="dispersionChart"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="container">
+    <canvas width="500" id="mixtoChart"></canvas>
+</div>
+
+<div class="container center-align">
+    <a href="/index.html" class="btn-floating pulse"><i class="material-icons">arrow_back</i></a>
+</div>
+
+
+<!--GRÁFICOS CON CHARTJS-->
+<script src="graph/barra.js">//BARRAS</script>
+<script src="graph/linea.js">//LINEA</script>
+<script src="graph/multiplelinea.js">//multiplelinea</script>
+<script src="graph/radar.js">//Radar</script>
+<script src="graph/polarArea.js">//polarArea</script>
+<script src="graph/pieChart.js">//pieChart</script>
+<script src="graph/donusChart.js">//donusChart</script>
+<script src="graph/dispersionChart.js">//dispersionChart</script>
+<script src="graph/mixtoChart.js">//mixtoChart</script>
+
+
+       <!--Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
+</body>
+</html>
